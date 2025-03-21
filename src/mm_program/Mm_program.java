@@ -52,26 +52,48 @@ public class Mm_program {
                     System.out.println("1. Mobile User");
                     System.out.println("2. Outside Uganda");
                     System.out.println("3. Donations");
-                    System.out.println("0. Back");
                     System.out.print("Select an option: ");
                     int choose = scanner.nextInt();
                     scanner.nextLine();
                     
-                    if (choose ==1){
-                        System.out.println("Enter Number You are Sending to.");
+                    if (choose == 1) { 
+                        System.out.print("Enter Number You Are Sending To: ");
+                        int num = scanner.nextInt();
+                        scanner.nextLine(); 
                         
+                        System.out.print("Enter Amount to Send: ");
+                        double amount = scanner.nextDouble();
+                        System.out.println("You have Sent UGX " + amount + " to " + num);
                     }
-                    if (choose ==2){
-                        System.out.println("Enter Number You are Sending to.");
+                    else if (choose == 2) {
+                        System.out.print("Enter Country Name : ");
+                        String country = scanner.next();
+                        System.out.print("Enter Amount: ");
+                        double amount = scanner.nextDouble();
+                        System.out.println("You Have sent UGX  " + amount + " to " + country);
                     }
-                    if (choose ==3){
-                        System.out.println("Enter Number You are Sending to.");
-                    }
-                    if (choose ==0){
-                        System.out.println("Enter Number You are Sending to.");
-                    }
+                    else if (choose == 3) { 
+                        System.out.println("Select Organization:");
+                        System.out.println("1. Organization A");
+                        System.out.println("2. Organization B");
+                        int charity = scanner.nextInt();
+                        scanner.nextLine(); 
+                        System.out.print("Enter Amount: ");
+                        double amount = scanner.nextDouble();
 
-                    
+                        if (charity == 1) {
+                            System.out.println("You have donated UGX " + amount + " to Organization A.");
+                        }
+                        else if (charity == 2) {
+                            System.out.println("You have donated UGX " + amount + " Organization B.");
+                        } 
+                        else {
+                            System.out.println("Invalid option.");
+                        }
+                    } 
+                    else {
+                        System.out.println("Invalid option.");
+                    }                   
 
 
             }
