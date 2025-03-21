@@ -17,7 +17,7 @@ public class Mm_program {
     public static void main(String[] args) {
         System.out.println("Mobile Money Program");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter Code(eg *i65#) :");
+        System.out.print("Enter Code(eg *i65#) :");
         String code = scanner.nextLine();
         
          if (code.equals("*165#")) {
@@ -30,7 +30,7 @@ public class Mm_program {
     }
 
     private static void displayMainMenu(Scanner scanner) {
-        while (true) {
+       
             System.out.println("\n Welcome to Mobile Money");
             System.out.println("1. Send Money");
             System.out.println("2. Airtime & Bundles");
@@ -49,6 +49,31 @@ public class Mm_program {
             
             if (choice == 1) {
                     System.out.println("Send Money.");
+                    System.out.println("1. Mobile User");
+                    System.out.println("2. Outside Uganda");
+                    System.out.println("3. Donations");
+                    System.out.println("0. Back");
+                    System.out.print("Select an option: ");
+                    int choose = scanner.nextInt();
+                    scanner.nextLine();
+                    
+                    if (choose ==1){
+                        System.out.println("Enter Number You are Sending to.");
+                        
+                    }
+                    if (choose ==2){
+                        System.out.println("Enter Number You are Sending to.");
+                    }
+                    if (choose ==3){
+                        System.out.println("Enter Number You are Sending to.");
+                    }
+                    if (choose ==0){
+                        System.out.println("Enter Number You are Sending to.");
+                    }
+
+                    
+
+
             }
             else if(choice == 2) {
                     System.out.println("Airtime & Bundles.");
