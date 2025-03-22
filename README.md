@@ -1,47 +1,47 @@
-Here’s a simple GitHub README for your Mobile Money USSD program:
+# Mobile Money Program
 
-Mobile Money USSD Simulator
+This is a simple Java-based USSD simulator that mimics mobile money services like sending money, buying airtime, and making payments. <br>The program runs in the terminal and allows users to interact with a menu using numeric inputs.
 
-A simple Java-based USSD simulator that mimics mobile money services like sending money, buying airtime, and making payments. The program runs in the terminal and allows users to interact with a menu using numeric inputs.
-
-Features
+## Features
 
 	•	Simulates a mobile money menu when *165# is entered
 	•	Supports sending money with recipient number and amount input
-	•	Includes options for withdrawing cash, buying airtime, and paying bills
+	•	Options for withdrawing cash, buying airtime, and paying bills still not activated
 	•	Uses if statements for menu navigation
 
-How to Run
+## How to Run
 
 	1.	Clone the repository:
 
-git clone https://github.com/your-username/mobile-money-ussd.git
+git clone https://github.com/ofwonogodwin/momo_program.git
 
 
 	2.	Navigate to the project directory:
 
-cd mobile-money-ussd
+cd momo_program
 
 
 	3.	Compile and run the program:
 
-javac MobileMoneyApp.java
-java MobileMoneyApp
+javac momo_program.java
+java momo_program
 
 
 
-Usage
+## Usage
 
 	•	Enter *165# when prompted.
 	•	Choose an option (e.g., 1 for Send Money).
 	•	Follow the prompts to complete the transaction.
 
-Contributing
+## Contributing
 
 Feel free to fork this repo, open issues, or submit pull requests for improvements.
 
-License
 
-This project is licensed under the MIT License.
+You can replace your username with your GitHub username before pushing your repo. 
 
-You can replace your-username with your GitHub username before pushing your repo. Let me know if you want more details added!
+**Let me know if you want more details added!**
+
+
+ ## Thanks Guys.
