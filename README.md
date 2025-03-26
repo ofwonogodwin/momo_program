@@ -1,4 +1,4 @@
-# Mobile Money Program
+# Momo Program
 
 This is a simple Java-based USSD simulator that mimics mobile money services like sending money, buying airtime, and making payments. <br>The program runs in the terminal and allows users to interact with a menu using numeric inputs.
 
@@ -39,7 +39,7 @@ java momo_program
 Feel free to fork this repo, open issues, or submit pull requests for improvements.
 
 
-You can replace your username with your GitHub username before pushing your repo. 
+
 
 **Let me know if you want more details added!**
 
