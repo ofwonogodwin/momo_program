@@ -97,6 +97,7 @@ public class Mm_program {
 
 
             }
+//            Am going to add the pin kinda Option
             else if(choice == 2) {
                     System.out.println("Airtime & Bundles.");
             }
@@ -119,7 +120,7 @@ public class Mm_program {
                     System.out.println("My Account.");
             }
             else  {
-                    System.out.println("Invalid Option,, Try again");
+                    System.out.println("Invalid Option, Try again");
             }
 
     }
