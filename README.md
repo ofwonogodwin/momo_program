@@ -33,6 +33,7 @@ java momo_program
 	•	Enter *165# when prompted.
 	•	Choose an option (e.g., 1 for Send Money).
 	•	Follow the prompts to complete the transaction.
+ #Only Option 1 Working Currently
 
 ## Contributing
 
