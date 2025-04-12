@@ -39,10 +39,4 @@ java momo_program
 
 Feel free to fork this repo, open issues, or submit pull requests for improvements.
 
-
-
-
-**Let me know if you want more details added!**
-
-
  ## Thanks Guys.
